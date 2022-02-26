@@ -1,0 +1,104 @@
+
+  .hero-image{
+    
+      height: 100vh;
+}
+.hero-image img{
+    height: 100%;
+    width: 100%;
+}
+
+    .text{
+        position: absolute;
+        text-align: center;
+        bottom: 350px;
+        right: 250px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: black;
+        font-size: 100%;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-style: oblique;
+        font-variant: small-caps;
+        font-size: 50px;
+        display: inline-block;
+    }
+    span{
+        font-weight: bolder;
+        font-size: 50px;
+        display: inline-block;
+        animation: mover 6s linear infinite;
+    }
+    @keyframes mover{
+        0%{
+            text-shadow: 0 0 30px rgba(0,0,0,0);
+        }
+        50%{
+             text-shadow: 0 0 30px rgba(0,0,0,0.30);
+             transform: translateY(30px);
+        }
+        100%{
+            text-shadow: 0 0 30px rgba(0,0,0,0);
+        }
+    }
+    span:nth-child(1)
+    {
+        animation-delay: 1s;
+    }
+    span:nth-child(2)
+    {
+        animation-delay: 1.25s;
+    }
+    span:nth-child(3)
+    {
+        animation-delay: 1.5s;
+    }
+    span:nth-child(4)
+    {
+        animation-delay: 1.75s;
+    }
+    span:nth-child(5)
+    {
+        animation-delay: 2s;
+    }
+    span:nth-child(6)
+    {
+        animation-delay: 2.25s;
+    }
+    span:nth-child(7)
+    {
+        animation-delay: 2.50s;
+    } 
+    span:nth-child(8)
+    {
+        animation-delay: 2.75s;
+    }
+    span:nth-child(9)
+    {
+        animation-delay: 3s;
+    }
+    span:nth-child(10)
+    {
+        animation-delay: 3.25s;
+    }
+    span:nth-child(11)
+    {
+        animation-delay: 3.5s;
+    }
+    span:nth-child(12)
+    {
+        animation-delay: 3.75s;
+    }
+    span:nth-child(13)
+    {
+        animation-delay: 4s;
+    }
+    .sm-text{
+        font-size: 30%;
+
+    }
+    .my{
+        height: 50%;
+        font-size: 20%;
+       right: 10%;
+    }
